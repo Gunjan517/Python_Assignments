@@ -1,0 +1,53 @@
+'''
+1. Write a program to print "Hello Python" on the screen. 
+print("Hello Python")
+
+2. Write a program to take your name as input and print "Hello <name>".
+a = input(" Enter Your Name: ")
+print("Hello", a) 
+
+3. Write a program to take one integer input from the user and print it.
+x= int(input("Enter a number: "))
+print(x)
+
+4. Write a program to take two integers as input and print their sum.
+x= int(input("Enter x number: "))
+y= int(input("Enter y number: "))
+z=x+y
+print("Sum is: ", z)
+
+5. Write a program to take two integers as input and print their multiplication.
+x= int(input("Enter x number: "))
+y= int(input("Enter y number: "))
+z=x*y
+print(z)
+
+6. Write a program to take one float number as input and print it.
+x= float(input("Enter a number: "))
+print(x)
+
+7. Write a program to take two float numbers as input and print their average.
+x= float(input("Enter x number: "))
+y= float(input("Enter y number: "))
+z=(x+y)/2
+print(z)
+ 
+8. Write a program to take length and width (float) from the user and calculate the area of 
+a rectangle.
+length= float(input("Enter length: "))
+width= float(input("Enter width: "))
+area=length*width
+print(area)
+ 
+9. Write a program to take an integer input and convert it into float, then print it. 
+a= int(input("Enter a number: "))
+b=float(a)
+print(b)
+
+10. Write a program to take price of three items (float) and print the total price.
+x= float(input("Enter price of 1st Item: "))
+y= float(input("Enter price of 2nd Item: "))
+z= float(input("Enter price of 3rd Item: "))
+total_price=x+y+z
+print("Total Price", total_price)
+'''
