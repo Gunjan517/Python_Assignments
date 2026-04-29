@@ -413,7 +413,11 @@ for item in nested_tuple:
 '''
 
 
-
+list=[1,2,3,4,5,6,15,5]
+count=0
+for i in list:
+    count += 1
+print("No. of elements:",count)
 
        
         
